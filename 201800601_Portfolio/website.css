@@ -1,0 +1,118 @@
+.header {
+  padding: 20px;
+  text-align: center;
+  background: gray; 
+  color: white; 
+}
+
+.header h1 {
+  font-size: 60px;
+  margin-right:8%;
+  color: #252a34;
+}
+
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: orange;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 16px 18px;
+  transition: 0.2s;
+  font-size: 18px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Column container */
+.row1 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%; /* Set the width of the sidebar */
+  background-color: #dddddd; /* Grey background color */
+  padding: 22px;
+  text-align: center;
+  margin-top:6px;
+}
+
+/* Main column */
+.main {
+  flex: 70%; /* Set the width of the main content */
+  background-color: #f7f7f7; /* White background color */
+  padding: 20px; /* Some padding */
+}
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #f9ee78;
+  color: black;
+}
+
+.row2 {
+  display: flex;
+}
+
+.column1 {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.row3 {
+	margin-left: 11%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column2 {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+#info
+{
+    border-style: outset;
+    border-width: 5px;
+    padding: 3%;
+    margin:5%;
+    border-radius: 15px;
+}
+.edu2
+{
+    margin-left: 5% ;
+    border-left: 3px ;
+    background-color: #F5DEB3;
+    margin-right: 5%;
+    font-size: 18px;
+}
